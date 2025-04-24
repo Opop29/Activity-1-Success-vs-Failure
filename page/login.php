@@ -5,7 +5,7 @@ if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
 header("location: ./public/user/dashboard.php");
 exit;
 }
-require_once "./db/config.php";
+require_once "../db/config.php";
 $username = $password = "";
 $username_err = $password_err = $login_err = "";
 if($_SERVER["REQUEST_METHOD"] == "POST"){
