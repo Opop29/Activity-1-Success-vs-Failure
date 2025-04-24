@@ -22,7 +22,7 @@
   </div>
 
   <div class="footer">
-    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    <p>&copy; 2025 Enterprice  drink_flow  ecommers system </p>
   </div>
 
 </body>
