@@ -67,7 +67,7 @@ unset($pdo);
 <meta charset="UTF-8">
 <title>Login</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
 <div class="wrapper">
@@ -95,7 +95,8 @@ echo '<div class="alert alert-danger">' . $login_err . '</div>';
 <input type="submit" class="btn btn-primary" value="Login" style="color: black;">
 </div>
 
-<p>Don't have an account? <a href="./public/user/register.php">Sign up now</a>.</p>
+<p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
+<p>Want to go back to? <a href="../index.php">Home page</a>.</p> 
 </form>
 </div>
 </body>

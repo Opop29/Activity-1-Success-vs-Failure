@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('../../media/regesterbg.jpg');
+    background-image: url('coca-cola-making-of-bottle-small-thumbnail.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -16,8 +16,8 @@ body {
     padding: 30px;
     background-color: #fff; 
     border-radius: 20px;
-    box-shadow: 0px 0px 30px rgba(255, 69, 0, 0.7), 0 0 0 4px black; 
-    background-image: url('../../media/pirate.jpg');
+    box-shadow: 0px 0px 30px rgba(8, 8, 8, 0.7), 0 0 0 4px black; 
+    background-image: url('red-wave-shape-with-white-lines-on-white-background-vector.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -43,24 +43,24 @@ body {
         }
 
         .form-control {
-            border-color: orange;
+            border-color: rgb(0, 0, 0);
             font-weight: bold;
         }
 
         .form-control:focus {
-            border-color: orange; 
+            border-color: rgb(88, 88, 88); 
             box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
         }
 
         .btn-primary {
-            background-color: orange; 
+            background-color: rgb(88, 88, 88); 
             border-color: black;
             font-weight: bold;
         }
 
         .btn-primary:hover {
-            background-color: orange; 
-            border-color: #0056b3;
+            background-color: rgb(255, 0, 0); 
+            border-color: #56595c;
         }
 
         .alert {
@@ -75,7 +75,7 @@ body {
 
         a {
              font-weight: bold;
-             color: orange;
+             color: rgb(255, 255, 255);
              text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
         } 
         

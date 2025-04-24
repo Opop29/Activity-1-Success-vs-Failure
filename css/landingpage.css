@@ -1,9 +1,15 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('coca-cola-making-of-bottle-small-thumbnail.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    }
+}
     
     .navbar {
     display: flex;
@@ -33,7 +39,7 @@ body {
     }
     
     .hero {
-    background-image: url('https://via.placeholder.com/1500x600');
+   
     background-size: cover;
     height: 60vh;
     display: flex;
