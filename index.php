@@ -11,8 +11,8 @@
   <div class="navbar">
     <div class="brand">MyWebsite</div>
     <div>
-      <a href="#login">Login</a>
-      <a href="#register">Register</a>
+      <a href="./page/login.php">Login</a>
+      <a href="./page/register.php">Register</a>
     </div>
   </div>
   
