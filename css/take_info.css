@@ -1,0 +1,76 @@
+
+body {
+    background-color: #000; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #008000, #004d00); 
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 255, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    color: white;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0, 255, 0, 0.8);
+}
+
+.form-label {
+    font-weight: bold;
+    color: white;
+}
+
+.form-control {
+    background-color: black;
+    color: white;
+    border: 2px solid #00ff00;
+    transition: 0.3s;
+}
+
+.form-control:focus {
+    background-color: #004d00;
+    border-color: white;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.8);
+}
+
+.btn-success {
+    background-color: #008000;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #00ff00;
+    color: black;
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 1);
+}
+
+.alert-danger {
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
