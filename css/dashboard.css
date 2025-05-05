@@ -1,0 +1,43 @@
+body {
+    background: url('./media/bg.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #333;
+    padding: 15px;
+}
+.dashboard-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.welcome-box {
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.btn-logout {
+    background: #ff4c4c;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+.btn-logout:hover {
+    background: #ff1a1a;
+}
+input[type="text"] {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 20px;
+}
+input::placeholder {
+    color: #aaa;
+}

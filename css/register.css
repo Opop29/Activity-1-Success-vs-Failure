@@ -1,5 +1,5 @@
 body {
-    background: url('../CSS/Media/bg.avif') no-repeat center center/cover;
+    background: url('./Media/bg.webp') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,7 +26,8 @@ body::before {
 }
 
 .login-card {
-    background:  #161b22;
+
+     background: url('./Media/red.jpg') no-repeat center center/cover;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.3);

@@ -1,5 +1,5 @@
 body {
-    background: url('../CSS/Media/bg.avif') no-repeat center center/cover;
+    background: url('./media/bg.webp') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -26,38 +26,38 @@ body::before {
 }
 
 .login-card {
-    background:  #161b22;
+    background: url('./Media/red.jpg') no-repeat center center/cover;
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.3);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(0, 255, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
    
 }
 
 .form-control {
     background: rgb(241, 241, 241);
-    border: 2px solid rgba(0, 255, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
     color: #050404;
     transition: 0.3s ease-in-out;
 }
 
 .form-control:focus {
-    box-shadow: 0px 0px 12px rgba(0, 255, 0, 0.7);
-    border-color: #00ff00;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.7);
+    border-color: #000000;
     background: rgb(255, 255, 255);
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #00ff00, #008000);
+    background: linear-gradient(45deg, #000000, #000000);
     border: none;
     font-weight: bold;
     transition: 0.3s ease-in-out;
-    color: white;
+    color: rgb(8, 7, 7);
 }
 
 .btn-primary:hover {
-    background: linear-gradient(45deg, #008000, #00ff00);
+    background: linear-gradient(45deg, #040504, #00ff00);
     transform: scale(1.05);
     box-shadow: 0px 0px 12px rgba(0, 255, 0, 0.7);
 }

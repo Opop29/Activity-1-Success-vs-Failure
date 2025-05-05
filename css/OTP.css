@@ -1,0 +1,95 @@
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.otp-box {
+    width: 45px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+.otp-inputs input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(40, 167, 69, 0.7);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h3 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+p.quote {
+    font-style: italic;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form-label {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #28a745;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-control:focus {
+    background-color: #222;
+    color: #fff;
+    border-color: #34d058;
+    box-shadow: 0 0 10px rgba(52, 208, 88, 0.6);
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+.alert-danger {
+    background-color: #8b0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+}

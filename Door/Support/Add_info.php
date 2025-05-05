@@ -27,7 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($count > 0) {
             $error = "This username or phone number is already in use. Please choose another.";
         } else {
-            // Proceed with updating the user's profile
             $stmt = $pdo->prepare("UPDATE users SET username = :username, phone = :phone, address = :address WHERE id = :id");
             $stmt->execute([
                 'username' => $username,
@@ -36,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 'id' => $_SESSION['user_id']
             ]);
 
-            header("Location: ./page/Dashboard.php");
+            header("Location: ../page/Dashboard.php");
             exit;
         }
     } else {
@@ -52,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete Profile - Smart DrinkFlow</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../CSS/take_info.css"> 
+    <link rel="stylesheet" href="../../CSS/take_info.css"> 
 </head>
 <body>
 <div class="container">
